@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 9vh;
+    background-color: black;
+    color: white;
+}
+
+.header-top .item {
+    
+    padding: 20px;
+
+}
+
+.header-top .item i{
+    color: yellow;
+
+}
+
+.header-top .item  a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgb(195, 235, 235);
+   width: 100%;
+   height: 15vh;
+   padding: 0 60px;
+   padding-left: 20px;
+}
+
+
+nav .logo{
+    
+
+}
+
+nav .logo a{
+    text-decoration: none;
+
+}
+
+nav .logo a h1{
+    color: blue;
+    font-size: 40px;
+
+}
+
+nav .navbar{
+    display: flex;
+    gap: 30px;
+
+}
+
+nav .navbar li{
+    list-style: none;
+
+}
+
+nav .navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+
+.navbar li a:hover{
+    color: blue;
+}
+
+
+/* container */
+
+.container{
+    padding: 20px 100px;
+    
+    
+}
+
+.main-section{
+    background-color: rgb(195, 235, 235);
+}
+
+.content{
+    display: flex;
+    width: 100%;
+}
+
+.content .info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+.content .info h3{
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: blue;
+    font-weight: 900;
+
+}
+
+.content .info p{
+   font-size: 20px;
+   letter-spacing: 2px;
+   word-spacing: 3px;
+   line-height: 30px;
+   padding-bottom: 20px;
+}
+
+.content .info .con-btn{
+    
+    display: inline-block;
+    width: 192px;
+    background-color: orange;
+    color: white;
+    padding: 10px 45px;
+    text-decoration: none;
+    border-radius: 8px;
+  
+    
+}
+   .content .info .con-btn:hover{
+    background-color: white;
+    color: orange;
+    border: 1px solid orange;
+    
+ }
+
+.content .image{
+   
+}
+
+.content .image img{
+  
+}
+
+.svg-section{
+    position: relative;
+}
+
+.svg-section .svg{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 90px;
+    position: absolute;
+    top: -120px;
+
+}
+
+.svg-section .svg .svg-img{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+   
+}
+
+.svg-section .svg .svg-img:hover{
+    background-color: orange;
+}
+
+.svg-section .svg .svg-img img{
+    width: 200px;
+    height: 100px;
+    margin: 60px;
+    
+    
+
+}
+
+.about-section{
+    margin-top: 150px;
+    
+}
+
+.about-section .about-content{
+    display: flex;
+    gap: 30px;
+
+}
+
+.about-section .about-content .about-info{
+
+}
+
+.about-section .about-content .about-info h3{
+
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.about-section .about-content .about-info p{
+     padding-bottom: 20px;
+     font-size: 20px;
+     line-height: 30px;
+     word-spacing: 5px;
+     letter-spacing: 3px;
+}
+
+.about-section .about-content .about-info a{
+    font-size: 20px;
+    display: inline-block;
+    width: 192px;
+    background-color: blue;
+    color: white;
+    padding: 10px 45px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.about-section .about-content .about-info a:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.main-section .about-content .about-img{
+
+}
+
+.main-section .about-content .about-img img{
+
+}
+
+.about-2-section{
+    margin-top: 150px;
+    background-color: rgb(195, 235, 235);
+}
+
+.about-2-section .content-2{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+}
+
+.about-2-section .content-2 .info-2{
+
+}
+
+.about-2-section .content-2 .info-2 h3{
+   padding-bottom: 20px;
+   color: blue;
+   font-size: 30px;
+   font-weight: 900;
+}
+
+.about-2-section .content-2 .info-2 p{
+   padding-bottom: 20px;
+   line-height: 30px;
+   word-spacing: 5px;
+   letter-spacing: 3px;
+}
+
+.about-2-section .content-2 .info-2 a{
+    font-size: 20px;
+    display: inline-block;
+    width: 192px;
+    background-color: orange;
+    color: white;
+    padding: 10px 45px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about-2-section .content-2 .info-2 a:hover{
+    background-color: white;
+    color: orange;
+    border: 1px solid orange;
+}
+
+.service-section{
+    margin-top: 150px;
+    
+
+}
+
+.service-section h3{
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+
+.service-section .service-content{
+    margin-top: 50px;
+    display: flex;
+   
+    gap: 50px;
+    
+
+}
+
+.service-section .service-content .service-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+
+}
+
+.service-section .service-content .service-info:hover{
+    background-color: orange;
+    color: white;
+}
+
+.service-section .service-content .service-info img{
+    margin-bottom: 20px;
+    width: 100px;
+   
+}
+
+.service-section .service-content .service-info h4{
+    margin-bottom: 20px;
+    font-size: 25px;
+
+}
+
+.service-section .service-content .service-info p{
+    font-size: 20px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    line-height: 28px;
+   
+
+
+}
+
+.service-section .service-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+.service-section a{
+    font-size: 20px;
+    display: inline-block;
+    width: 192px;
+    background-color: blue;
+    color: white;
+    padding: 10px 45px;
+    text-decoration: none;
+    border-radius: 5px;
+   
+
+}
+
+.service-section a:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.contact-section{
+    margin-top: 150px;
+
+}
+
+.contact-section h3{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.contact-section .contact-content{
+    display: flex;
+    gap: 40px;
+    /* justify-content: space-between; */
+
+}
+
+.contact-section .contact-content .contact-info{
+    display: flex;
+    
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+   
+
+}
+
+.contact-section .contact-content .contact-info .input-field{
+
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.contact-section .contact-content .contact-info input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    
+    
+
+}
+
+.contact-section .contact-content .contact-info input::placeholder{
+    padding-left: 20px;
+    font-size: 17px;
+
+}
+
+.contact-section .contact-content .contact-info textarea{
+
+    width: 100%;
+    resize: none;
+    border: none;
+}
+
+.contact-section .contact-content .contact-info textarea::placeholder{
+    padding-left: 20px;
+     padding-top: 50px;
+     font-size: 17px;
+}
+
+.contact-section .contact-content .map{
+    /* height: 300px; */
+
+} 
+
+.contact-section a{
+    font-size: 20px;
+    display: inline-block;
+    width: 192px;
+    background-color: blue;
+    color: white;
+    padding: 10px 45px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.contact-section a:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.info-section{
+    margin-top: 150px;
+    padding-bottom: 100px;
+    background-color: rgb(8, 8, 114);
+
+}
+.info-section .top-info{
+
+}
+
+.info-section .top-info h3{
+    color: white;
+    margin: 40px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.info-section .top-info .info-content-1{
+    display: flex;
+   justify-content: space-evenly;
+   gap: 30px;
+
+}
+
+.info-section .top-info .info-content-1 .item{
+    
+
+}
+
+.info-section .top-info .info-content-1 .item .item-i{
+    
+    
+}
+
+.info-section .top-info .info-content-1 .item i{
+    background-color: blue;
+    color: white;
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    
+    
+
+}
+
+.info-section .top-info .info-content-1 .item p{
+    color: white;
+
+}
+
+.info-section .top-info .info-content-1 .item a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+footer{
+    background-color: rgb(8, 8, 114);
+}
+
+footer p{
+    text-align: center;
+    font-size: 20px;
+    padding:  20px 0px;
+    color: white;
+
+
+}
+
+
+
+
+
+
